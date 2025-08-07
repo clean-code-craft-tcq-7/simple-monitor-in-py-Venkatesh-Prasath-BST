@@ -30,7 +30,7 @@ def is_pulse_rate_ok(pulse_rate):
 
 
 def is_spo2_ok(spo2):
-  return __is_vital_ok('Oxygen Saturation', spo2, 90, float('inf'))
+  return __is_vital_ok('Oxygen Saturation', spo2, 90, 150)
 
 
 def vitals_ok(temperature, pulse_rate, spo2):
